@@ -14,7 +14,7 @@ print(arr_3)
 
 #part b
 print("Logarithmic value of array 1:",np.log(arr_1))
-print("Exponential value of array 1:",np.log(arr_2))
+print("Exponential value of array 1:",np.exp(arr_1))
 
 #part c
 arr_4 = np.array([1.2, 2.5, 5.6, 3.4, 7.8])

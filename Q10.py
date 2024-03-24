@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-df=pd.read_csv("SML\Assignment3\Housing.csv")
+df=pd.read_csv("Housing.csv")
 print(df.head(2))
 print(df.info())
 

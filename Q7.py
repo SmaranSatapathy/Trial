@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df=pd.read_csv("SML\Assignment3\ComputerSales.csv")
+df=pd.read_csv("ComputerSales.csv")
 print(df.isna().sum())
 print(df.info())
 print(df.shape)

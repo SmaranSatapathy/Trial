@@ -1,8 +1,7 @@
 import numpy as np
-import scipy.constants as scipy
 import matplotlib.pyplot as plt
 
-arr_1=np.array(np.random.randint(-(scipy.pi),scipy.pi, size=200))
+arr_1=np.array(np.linspace(-np.pi,np.pi,200))
 print(arr_1)
 sin_value=np.sin(arr_1)
 cos_value=np.cos(arr_1)
